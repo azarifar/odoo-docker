@@ -1,8 +1,7 @@
 # odoo-docker
 
-r4bz-zj5j-r78j
 
-This project prepared for implementing odoo by only one command.
+This project is prepared to implement Odoo by running only one command.
 
 **Rebuild and Run Container**
 
@@ -10,7 +9,7 @@ This project prepared for implementing odoo by only one command.
 chmod +x entrypoint.sh wait-for-psql.py && docker-compose up --build
 ```
 
-**Remove all data associated with Docker container**
+**Remove all data associated with the Docker container**
 
 ```
 docker-compose down
